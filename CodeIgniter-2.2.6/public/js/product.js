@@ -1,30 +1,17 @@
 // BEGIN RAFTING
 
-var rafting = [ 'BWH R001 PADAS WWR', 'BWH R002 KIULU WWR', 'BWH R003 EX-PADAS WWR', 'BWH R004 EX-KULU WWR' ];
+var rafting = [ 'BWH R001 PADAS WWR', 'BWH R002 KIULU WWR', 'BWH R003 EX-PADAS WWR', 'BWH R004 EX-KIULU WWR' ];
 
-var r001 = {
-
-        name: "TOUR NAME : BWH R001 PADAS WWR ",
-        adult: 230,
-        child: false
-};
-
-var r002 = {
-        name: "TOUR NAME : BWH R002 KIULU WWR ",
-        adult: 180,
-        child: 160
-};
-
-var r003 = {
-        name: "TOUR NAME : BWH R003 EX-PADAS WWR",
-        adult: 180,
-        child: false
-};
-
-var r004 = {
-        name: "TOUR NAME : BWH R004 EX-KULU WWR ",
-        adult: 150,
-        child: 130
-};
+var raftingCode = [ 'R001', 'R002', 'R003', 'R004' ];
 
 //END RAFTING
+
+
+// BEGIN KAYAKING
+
+var kayaking = [ 'BWH SK001 TANJUNG ARU SUNSET SEA KAYAKING', 'BWH SK002 SEA KAYAKING TO MAGIC ISLAND AND MAMUTIK ISLAND', 'BWH SK004 SEA KAYAKING 2D1N @ TUNKU ABDUL RAHMAN PARK'];
+
+var kayakingCode = [ 'SK001', 'SK002', 'SK004'];
+
+
+// END KAYAKING

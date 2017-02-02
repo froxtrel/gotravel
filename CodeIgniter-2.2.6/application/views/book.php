@@ -6,7 +6,6 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <body> <!--<![endif]-->
 
 
-
     <!-- PAGE WRAP -->
     <div id="page-wrap">
         <!-- PRELOADER -->
@@ -55,70 +54,69 @@
         
         <section class="checkout-section-demo">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="checkout-page__top">
-                            <div class="title">
-                                <h1 class="text-uppercase">CONFIRM</h1>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h5> Booking Cart</h5>
+                            </div>                          
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-xs-2"><img class="img-responsive" src="https://scontent-kut2-1.xx.fbcdn.net/v/t31.0-8/12489457_10154052523384349_5957258425204783285_o.jpg?oh=13860cc11189c5a1b2b52a3ca97af9ea&oe=59055F7D">
+                        </div>
+                        <div class="col-xs-4">
+                            <h4 class="product-name"><strong><?php echo $tour_name;?></strong>
+                            </h4><small><?php echo $tour_desc;?></small>                      
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="col-xs-6 text-right">
+                                <h6><strong>RM <?php echo $adult_rate;?> <span class="text-muted">x</span></strong></h6>
+                                <br>
+                                <h6><strong>RM <?php echo $child_rate;?> <span class="text-muted">x</span></strong></h6>
                             </div>
-                            <span class="phone">Support Call: 088-212 852</span>
+                            <div class="col-xs-6">
+                                <input disabled="true" type="text" class="form-control input-sm" value="<?php echo $adult ;?> ADULT">
+                                <br>
+                                <input disabled="true" type="text" class="form-control input-sm" value="<?php echo $child ;?> CHILD">
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
-                        <div class="checkout-page__sidebar">
-                            <ul>
-                                <li class="current"><a href="checkout-yourcart.html">Your Book</a></li> 
-                                <li><a href="checkout-complete.html">Complete order</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-9">
-                        <div class="checkout-page__content">
-                            <div class="yourcart-content">
-                                <div class="content-title">
-                                    <h2><i class="awe-icon awe-icon-cart"></i><?php echo $tour;?></h2>
-                                </div>
-                                <div class="cart-content">
-
-                                <br>
-                                <hr>
-                                <br>
-                                
-                                    <div class="cart-footer">
-                                        <div class="cart-subtotal">
-                                            <div class="subtotal-title">
-                                                <h5>Book Subtotal</h5>
-                                            </div>
-                                            <div class="subtotal">
-                                                <span class="amount">$ 467.909</span>
-                                                <span class="sale">- 30%</span>
-                                            </div>
-                                            <div class="coupon-code">
-                                                <label for="coupon">Coupon Code</label>
-                                                <div class="form-item">
-                                                    <input type="text" id="coupon">
-                                                </div>
-                                                <div class="form-submit">
-                                                    <input type="submit" value="Apply code" class="button">
-                                                </div>
-                                            </div>
-                                        </div>
-                                       
-                                        <div class="order-total">
-                                            <h4 class="title">Book total</h4>
-                                            <span class="amount">$ 467.909</span>
-                                        </div>
-                                        <div class="cart-submit">
-                                            <input type="submit" value="UPDATE BOOK" class="update-cart">
-                                            <input type="submit" value="PROCEED" class="checkout">
-                                        </div>
-                                    </div>
-                                </div>
+                    <hr>               
+                    <div class="row">
+                        <div class="text-center">
+                            <div class="col-xs-9">
+                                <!-- <h6 class="text-right">Added items?</h6> -->
+                            </div>
+                            <div class="col-xs-3">
+                                <button type="button" class="btn btn-default btn-sm btn-block">
+                                    Cancel
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="panel-footer">
+                    <div class="row text-center">
+                        <div class="col-xs-9">
+                            <h4 class="text-right">Total <strong>RM <?php echo $total;?></strong></h4>
+                        </div>
+                        <div class="col-xs-3">
+                            <button type="button" class="btn btn-success btn-block">
+                                Okay
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+    </div>
+</div>              
         </section>
 
         

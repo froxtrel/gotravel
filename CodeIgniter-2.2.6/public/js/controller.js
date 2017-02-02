@@ -15,11 +15,13 @@ $( document )
 
                                         case "RF":
 
+                                                $('#tour-select').empty();
+
                                                 for ( var i = 0; i < rafting.length; i++ )
                                                 {
 
                                                         $( '<option/>' )
-                                                                .val( rafting[ i ] )
+                                                                .val( raftingCode[ i ] )
                                                                 .html( rafting[ i ] )
                                                                 .appendTo( '#tour-select' );
                                                 }
@@ -27,7 +29,19 @@ $( document )
                                                 break;
 
                                         case "SK":
-                                                // code block
+
+                                                $('#tour-select').empty();
+                                                
+                                                for ( var i = 0; i < kayaking.length; i++ )
+                                                {
+
+                                                        $( '<option/>' )
+                                                                .val( kayakingCode[ i ] )
+                                                                .html( kayaking[ i ] )
+                                                                .appendTo( '#tour-select' );
+                                                }
+
+
                                                 break;
 
                                         case "CT":

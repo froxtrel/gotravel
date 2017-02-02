@@ -14,7 +14,7 @@
                                 </div>
                             </div>
                             <div class="logo">
-                                <img src="http://borneowavehunters.com/images/logo.png" alt="">
+                                <img src="https://s30.postimg.org/5uorutc7l/TT1.png" alt="">
                             </div>
                             <div class="widget_content">
                                 <p>Lot E-4-1(B), Block E, 4th Floor, Plaza Tanjung Aru,88100 Kota Kinabalu, Sabah, Malaysia</p>                            
@@ -43,8 +43,8 @@
                             <ul>
                                 <li><a href="#">Rafting</a></li>
                                 <li><a href="#">Sea Kayaking</a></li>
-                                <li><a href="#">Mountain Climb</a></li>
-                                <li><a href="#">Combo Tour</a></li>         
+                               <!--  <li><a href="#">Mountain Climb</a></li>
+                                <li><a href="#">Combo Tour</a></li>          -->
                             </ul>
                         </div>
                     </div>
@@ -67,7 +67,7 @@
                         <div class="widget widget_follow_us">
                             <div class="widget_content">
                                 <p>For Special booking request/Inquiry, please call</p>
-                                <span class="phone">088-212 852</span>
+                                <span class="phone">088-201 000</span>
                                 <div class="awe-social">
                                     <a href="#"><i class="fa fa-twitter"></i></a>
                                     <a href="#"><i class="fa fa-pinterest"></i></a>
@@ -90,7 +90,6 @@
     <!-- END / PAGE WRAP -->
 
     <!-- LOAD JQUERY -->
-    <script type="text/javascript" src="<?php echo base_url();?>/public/js/lib/jquery-1.11.2.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url();?>/public/js/lib/masonry.pkgd.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url();?>/public/js/lib/jquery.parallax-1.1.3.js"></script>
     <script type="text/javascript" src="<?php echo base_url();?>/public/js/lib/jquery.owl.carousel.js"></script>

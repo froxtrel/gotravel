@@ -109,11 +109,12 @@
                                 <i class="awe-icon awe-icon-briefcase"></i>
                             </a>
                         </li>
-                        <li>
+                        <!-- FUTURE UPGRADE -->
+                        <!-- <li>
                             <a href="#awe-search-tabs-2">
                                 <i class="awe-icon awe-icon-hotel"></i>
                             </a>
-                        </li>                        
+                        </li>     -->                    
                     </ul>
                     <div class="awe-search-tabs__content tabs__content">
                         <div id="awe-search-tabs-1" class="search-flight-hotel">
@@ -125,20 +126,20 @@
                                     <div class="form-elements">
                                         <label>CATEGORY</label>
                                         <div class="form-item">
-                                            <select class="awe-select" name="tour-category" id="tour-category">
+                                            <select class="awe-select" name="tour-category" id="tour-category" required="true">
                                                 <option>Choice</option>
                                                 <option value="RF">RAFTING</option>
                                                 <option value="SK">SEA KAYAKING</option>
-                                                <option value="MC">MOUNTAIN CLIMB</option>
-                                                <option value="CT">COMBO TOUR</option>
+                                               <!--  <option value="MC">MOUNTAIN CLIMB</option>
+                                                <option value="CT">COMBO TOUR</option> -->
                                             </select>
                                         </div>
                                     </div>
                                     <div class="form-elements">
                                         <label>CHOOSE TOUR</label>
                                         <div class="form-item">
-                                            <select class="awe-select" name="tour-select" id="tour-select">
-                                                <option>Choice</option>                                              
+                                            <select class="awe-select" name="tour-select" id="tour-select" required="true">
+                                                <option>Please pick category first</option>                                              
                                             </select>
                                         </div>
                                     </div>
@@ -148,28 +149,28 @@
                                         <label>TOUR DATE</label>
                                         <div class="form-item">
                                             <i class="awe-icon awe-icon-calendar"></i>
-                                            <input type="text" class="awe-calendar" value="Check in" name="tour-date">
+                                            <input type="text" class="awe-calendar" value="Check in" name="tour-date" required="true">
                                         </div>
                                     </div>
                                     <div class="form-elements">
                                         <label>CONTACT NO</label>
                                         <div class="form-item">
                                            <div class="form-item">
-                                            <input type="text" name="tour-contact">
+                                            <input type="text" name="tour-contact" required="true" >
                                         </div>
                                         </div>
                                     </div>
                                     <div class="form-elements">
                                         <label>ADULT</label>
                                         <div class="form-item">
-                                            <input type="number" name="tour-adult">
+                                            <input type="number" name="tour-adult" required="true" >
                                         </div>
                                         <span>12 yo and above</span>
                                     </div>
                                     <div class="form-elements">
                                         <label>KIDS</label>
                                         <div class="form-item">
-                                            <input type="number" name="tour-child">
+                                            <input type="number" name="tour-child" required="true" >
                                         </div>
                                         <span>0-11 yo</span>
                                     </div>
@@ -178,7 +179,7 @@
                                     <div class="form-elements">
                                         <label>NATIONALITY</label>
                                         <div class="form-item">
-                                          <select class="awe-select" name="tour-nation">
+                                          <select class="awe-select" name="tour-nation" required="true">
                                             <option value="AF">Afghanistan</option>
                                             <option value="AX">Åland Islands</option>
                                             <option value="AL">Albania</option>
@@ -434,16 +435,17 @@
                                     <div class="form-elements">
                                         <label>PICK UP HOTEL</label>
                                         <div class="form-item">
-                                            <input type="text" name="tour-hotel">
+                                            <input type="text" name="tour-hotel" required="true">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-actions">
-                                    <input type="submit" value="CHECK" id="send" name="send">
+                                    <input type="submit" value="CHECK" id="send" name="send" >
                                 </div>
                             </form>
                         </div>
-                        <div id="awe-search-tabs-2" class="search-hotel">
+                       <!--  FUTURE UPGRADE -->
+                        <!-- <div id="awe-search-tabs-2" class="search-hotel">
                             <h2>CUSTOM TOUR</h2>
                             <form id="tour-form">
                                 <div class="form-group">
@@ -497,7 +499,7 @@
                                 </div>
 
                             </form>
-                        </div>                     
+                        </div>                      -->
                     </div>
                 </div>
             </div>
@@ -661,7 +663,7 @@
                             <div class="sale-flights-tabs__content tabs__content">
                                 <div id="sale-flights-tabs-1">
                                     
-                                    <!-- ITEM -->
+                                <!-- ITEM -->
                                 <div class="trip-item">
                                     <div class="item-media">
                                         <div class="image-cover">
@@ -711,11 +713,12 @@
                                     </div>
                                 </div>
                                 <!-- END / ITEM -->
+
                                 <!-- ITEM -->
                                 <div class="trip-item">
                                     <div class="item-media">
                                         <div class="image-cover">
-                                            <img src="http://wavehuntersasia.com/reserve/beta/img/ld001.jpg" alt="">
+                                            <img src="http://wavehuntersasia.com/reserve/beta/img/sk001.jpg" alt="">
                                         </div>
                                         <div class="trip-icon">
                                             <img src="<?php echo base_url();?>/public/images/trip.jpg" alt="">
@@ -724,136 +727,36 @@
                                     <div class="item-body">
                                         <div class="item-title">
                                             <h2>
-                                                <a href="#">DANUM VALLEY ADVENTURE</a>
+                                                <a href="#">SUNSET SEA KAYAKING </a>
                                             </h2>
                                         </div>
                                         <div class="item-list">
                                             <ul>
                                                 
-                                                <li>3 days, 2 night</li>
+                                                <li>1 days</li>
                                             </ul>
                                         </div>
                                         <div class="item-footer">
                                             <div class="item-rate">
-                                                <span>7.5 Good</span>
+                                                <span>10 Fantastic</span>
                                             </div>
                                             <div class="item-icon">
-                                                
-                                                <i class="awe-icon awe-icon-car"></i>
-                                                <i class="awe-icon awe-icon-food"></i>
-                                                <i class="awe-icon awe-icon-level"></i>
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item-price-more">
-                                        <div class="price">
-                                            Adult 
-                                            <ins>
-                                                <span class="amount">RM3456</span>
-                                            </ins>
-                                            <del>
-                                                <span class="amount">RM3600</span>
-                                            </del>
-                                    
-                                        </div>
-                                        <a href="#" class="awe-btn">Book now</a>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
-                                <!-- ITEM -->
-                                <div class="trip-item">
-                                    <div class="item-media">
-                                        <div class="image-cover">
-                                            <img src="http://wavehuntersasia.com/reserve/beta/img/mc003.jpg" alt="">
-                                        </div>
-                                        <div class="trip-icon">
-                                            <img src="<?php echo base_url();?>/public/images/trip.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="item-body">
-                                        <div class="item-title">
-                                            <h2>
-                                                <a href="#">MOUNTAIN CLIMBING VIA TIMPOHON GATE</a>
-                                            </h2>
-                                        </div>
-                                        <div class="item-list">
-                                            <ul>
-                                                
-                                                <li>3 days, 2 night</li>
-                                            </ul>
-                                        </div>
-                                        <div class="item-footer">
-                                            <div class="item-rate">
-                                                <span>7.5 Good</span>
-                                            </div>
-                                            <div class="item-icon">
-                                                
-                                                <i class="awe-icon awe-icon-car"></i>
-                                                <i class="awe-icon awe-icon-food"></i>
-                                                <i class="awe-icon awe-icon-level"></i>
                                                
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item-price-more">
-                                        <div class="price">
-                                            PRICE FROM
-                                            <ins>
-                                                <span class="amount">RM1550</span>
-                                            </ins>
-                                            <del>
-                                                <span class="amount">RM1660</span>
-                                            </del>
-                                    
-                                        </div>
-                                        <a href="#" class="awe-btn">Book now</a>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
-                                <!-- ITEM -->
-                                <div class="trip-item">
-                                    <div class="item-media">
-                                        <div class="image-cover">
-                                            <img src="http://wavehuntersasia.com/reserve/beta/img/mc002.jpg" alt="">
-                                        </div>
-                                        <div class="trip-icon">
-                                            <img src="<?php echo base_url();?>/public/images/trip.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="item-body">
-                                        <div class="item-title">
-                                            <h2>
-                                                <a href="#"> LOW'S PEAK CIRCUIT VIA FERRATA (LPC)</a>
-                                            </h2>
-                                        </div>
-                                        <div class="item-list">
-                                            <ul>
-                                                
-                                                <li>2 days, 1 night</li>
-                                            </ul>
-                                        </div>
-                                        <div class="item-footer">
-                                            <div class="item-rate">
-                                                <span>7.5 Good</span>
-                                            </div>
-                                            <div class="item-icon">
-                                                
                                                 <i class="awe-icon awe-icon-car"></i>
                                                 <i class="awe-icon awe-icon-food"></i>
                                                 <i class="awe-icon awe-icon-level"></i>
-                                              
+                                                
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item-price-more">
                                         <div class="price">
-                                            PRICE FROM
+                                            Adult Only
                                             <ins>
-                                                <span class="amount">RM1700</span>
+                                                <span class="amount">RM120</span>
                                             </ins>
                                             <del>
-                                                <span class="amount">RM1750</span>
+                                                <span class="amount">RM150</span>
                                             </del>
                                     
                                         </div>
@@ -861,11 +764,12 @@
                                     </div>
                                 </div>
                                 <!-- END / ITEM -->
-                                <!-- ITEM -->
+
+                                  <!-- ITEM -->
                                 <div class="trip-item">
                                     <div class="item-media">
                                         <div class="image-cover">
-                                            <img src="http://wavehuntersasia.com/reserve/beta/img/mc001.jpg" alt="">
+                                            <img src="http://wavehuntersasia.com/reserve/beta/img/r001.jpg" alt="">
                                         </div>
                                         <div class="trip-icon">
                                             <img src="<?php echo base_url();?>/public/images/trip.jpg" alt="">
@@ -874,7 +778,7 @@
                                     <div class="item-body">
                                         <div class="item-title">
                                             <h2>
-                                                <a href="#">WALK THE TORQ VIA FERRATA (WTT)</a>
+                                                <a href="#">EX-KIULU RIVER RAFTING</a>
                                             </h2>
                                         </div>
                                         <div class="item-list">
@@ -885,7 +789,7 @@
                                         </div>
                                         <div class="item-footer">
                                             <div class="item-rate">
-                                                <span>7.5 Good</span>
+                                                <span>10 Fantastic</span>
                                             </div>
                                             <div class="item-icon">
                                                
@@ -900,10 +804,10 @@
                                         <div class="price">
                                             PRICE FROM
                                             <ins>
-                                                <span class="amount">RM1550</span>
+                                                <span class="amount">RM130</span>
                                             </ins>
                                             <del>
-                                                <span class="amount">RM1650</span>
+                                                <span class="amount">RM160</span>
                                             </del>
                                     
                                         </div>
@@ -911,6 +815,7 @@
                                     </div>
                                 </div>
                                 <!-- END / ITEM -->
+                                  
                                 </div>
                                <!-- temporary hidden <div id="sale-flights-tabs-2">
                                     
